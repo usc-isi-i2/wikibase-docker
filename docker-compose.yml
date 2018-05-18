@@ -18,6 +18,7 @@ services:
      - "8181:80"
     volumes:
       - mediawiki-images-data:/var/www/html/images
+      - ./CustomLocalSettings.php.template:/LocalSettings.php.template
     depends_on:
     - mysql
     networks:
