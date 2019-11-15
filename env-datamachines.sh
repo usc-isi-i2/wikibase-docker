@@ -1,0 +1,1 @@
+export ISI_ES_DATA_DIR=/data/amandeep_wikidata_es_data/es_data
